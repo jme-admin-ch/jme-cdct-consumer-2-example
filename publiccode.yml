@@ -1,0 +1,40 @@
+publiccodeYmlVersion: 0.4.0
+name: jme-cdct-consumer-2-example
+applicationSuite: JME
+softwareVersion: 1.0.0
+releaseDate: 2025-12-04
+url: "https://github.com/jme-admin-ch/jme-cdct-consumer-2-example.git"
+landingURL: "https://github.com/jme-admin-ch/jme"
+platforms:
+  - web
+categories:
+  - application-development
+developmentStatus: stable
+softwareType: standalone/web
+organisation:
+  uri: https://ld.admin.ch/office/V.1.7
+  name: Federal Office of Information Technology, Systems and Telecommunication
+description:
+  en:
+    localisedName: jme-cdct-consumer-2-example
+    shortDescription: jEAP microservice example demonstrating consumer-driven contract testing with Pact in a consumer using the Pact Java legacy DSL.
+    longDescription: >
+      The jme-cdct-consumer-2-example is a jEAP microservice example. It demonstrates consumer-driven contract testing
+      with Pact in a consumer using the Pact Java legacy DSL. The example includes tests that generate pacts based on
+      the interactions defined by the tests. These pacts are then published to a Pact Broker.
+    features:
+      - Runs pact consumer tests
+      - Generates pacts
+      - Publishes pacts to a Pact Broker
+      - Legacy Pact Java DSL
+legal:
+  license: Apache-2.0
+maintenance:
+  type: internal
+  contacts:
+    - name: Federal Office of Information Technology, Systems and Telecommunication FOITT
+      email: jeap-community@bit.admin.ch
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en

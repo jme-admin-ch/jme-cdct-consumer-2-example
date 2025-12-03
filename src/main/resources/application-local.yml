@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+jme:
+  cdct-consumer-2:
+    task-api-url: http://localhost:8080/jme-cdct-provider-service/api/task
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          jme-cdct-consumer-service:
+            client-id: "jme-cdct-consumer-service"
+            client-secret: "secret"
+            authorization-grant-type: "client_credentials"
+            provider: "default-provider"
+        provider:
+          default-provider:
+            issuer-uri: "http://localhost:8180/jme-cdct-auth-scs"

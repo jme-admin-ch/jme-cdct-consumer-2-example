@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jme-cdct-consumer-2-service
+server:
+  servlet:
+    context-path: /${spring.application.name}
+jeap:
+  swagger:
+    status: OPEN
