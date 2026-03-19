@@ -1,6 +1,8 @@
 spring:
   application:
     name: jme-cdct-consumer-2-service
+  main:
+    banner-mode: off
 server:
   servlet:
     context-path: /${spring.application.name}

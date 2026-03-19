@@ -22,7 +22,7 @@ public class ConsumerApplication {
         }
         log.info("""
                     ----------------------------------------------------------
-                        Yeah!!! {} is running!
+                        {} is running!
 
                         SwaggerUI: {}://localhost:{}{}/swagger-ui.html?urls.primaryName=public-api
                         Profile(s): {}

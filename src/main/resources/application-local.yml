@@ -17,4 +17,5 @@ spring:
             provider: "default-provider"
         provider:
           default-provider:
-            issuer-uri: "http://localhost:8180/jme-cdct-auth-scs"
+            token-uri: "http://localhost:8180/jme-cdct-auth-scs/oauth2/token"
+            jwk-set-uri: "http://localhost:8180/jme-cdct-auth-scs/.well-known/jwks.json"
