@@ -29,7 +29,7 @@
     <parent>
         <groupId>ch.admin.bit.jeap</groupId>
         <artifactId>jeap-spring-boot-parent</artifactId>
-        <version>37.0.0</version>
+        <version>37.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -40,7 +40,7 @@
     <groupId>ch.admin.bit.jeap</groupId>
 
     <artifactId>jme-cdct-consumer-2-example</artifactId>
-    <version>7.0.0-SNAPSHOT</version>
+    <version>7.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <dependencies>
