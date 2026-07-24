@@ -2,7 +2,7 @@ publiccodeYmlVersion: 0.4.0
 name: jme-cdct-consumer-2-example
 applicationSuite: JME
 softwareVersion: 7.3.0
-releaseDate: 2026-07-24
+releaseDate: 2026-07-25
 url: "https://github.com/jme-admin-ch/jme-cdct-consumer-2-example.git"
 landingURL: "https://github.com/jme-admin-ch/jme"
 platforms:
